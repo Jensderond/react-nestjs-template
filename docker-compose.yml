@@ -15,7 +15,7 @@ services:
       dockerfile: ./packages/backend/Dockerfile
     restart: always
     ports:
-      - 3000:3000
+      - 3333:3333
 
   database:
     image: mysql:5.7.28

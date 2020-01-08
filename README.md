@@ -17,6 +17,18 @@
 yarn install
 ```
 
+## Start frontend
+
+```sh
+yarn workspace frontend start
+```
+
+## Start backend
+
+```sh
+yarn workspace backend start
+```
+
 ## Author
 
 👤 **Jens de Rond**

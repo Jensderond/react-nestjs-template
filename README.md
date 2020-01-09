@@ -16,6 +16,26 @@
 npx degit Jensderond/react-nestjs-template my-new-project
 ```
 
+## To do:
+
+### Frontend
+- [ ] [storybook](https://github.com/storybookjs/storybook)
+- [ ] [styled-components](https://github.com/storybookjs/storybook)
+- [ ] [ESLint](https://github.com/eslint/eslint)
+- [ ] [Husky](https://github.com/typicode/husky)
+- [ ] [restful-react](https://github.com/contiamo/restful-react)
+- [ ] [wouter](https://github.com/molefrog/wouter)
+- [ ] UI Framework (Probably [Tailwindcss](https://github.com/tailwindcss/tailwindcss)?)
+- [ ] [React Helmet](https://github.com/nfl/react-helmet)
+
+
+### Backend
+- [ ] MySQL basic setup to the backend
+- [ ] Configuration validation
+- [ ] Authentication and authorization with [Passport](https://github.com/jaredhanson/passport)
+- [ ] Healtcheck
+- [ ] ...
+
 ## Install
 
 ```sh

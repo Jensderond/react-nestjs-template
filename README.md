@@ -11,6 +11,11 @@
 
 > Template to bootstrap a monorepo with a React frontend and NestJS backend
 
+## Usage 
+```sh
+npx degit Jensderond/react-nestjs-template my-new-project
+```
+
 ## Install
 
 ```sh

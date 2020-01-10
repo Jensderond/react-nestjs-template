@@ -1,11 +1,11 @@
-import React, { ReactElement } from 'react'
+import React from 'react';
 
 interface Props {
     children: any
     onClick: (event: React.MouseEvent<HTMLButtonElement>) => void
 }
 
-const Button = ({ onClick, children }: Props): ReactElement => {
+const Button: React.FC<Props> = ({ onClick, children }) => {
     return (
         <button onClick={onClick}>
             {children}

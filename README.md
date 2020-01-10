@@ -20,7 +20,7 @@ npx degit Jensderond/react-nestjs-template my-new-project
 
 ### Frontend
 - [ ] [storybook](https://github.com/storybookjs/storybook)
-- [ ] [styled-components](https://github.com/storybookjs/storybook)
+- [ ] [styled-components](https://github.com/styled-components/styled-components)
 - [ ] [ESLint](https://github.com/eslint/eslint)
 - [ ] [Husky](https://github.com/typicode/husky)
 - [ ] [restful-react](https://github.com/contiamo/restful-react)

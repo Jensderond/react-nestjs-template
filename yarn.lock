@@ -2508,7 +2508,7 @@
     webpack-dev-middleware "^3.7.0"
     webpack-hot-middleware "^2.25.0"
 
-"@storybook/node-logger@5.2.8", "@storybook/node-logger@^5.2.8":
+"@storybook/node-logger@5.2.8":
   version "5.2.8"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-5.2.8.tgz#4a3df21d731014d54b9ca53d5b9a72dd350bb075"
   integrity sha512-3TK5mx6VWbfJO+WUrqwPhTbTQ4qESTnwJY/02xPzOhvuC6tIG1QOxzi+Rq6rFlwxTpUuWh6iyDYnGIqFFQywkA==
@@ -2519,15 +2519,26 @@
     pretty-hrtime "^1.0.3"
     regenerator-runtime "^0.12.1"
 
-"@storybook/preset-create-react-app@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-1.5.0.tgz#214c023790545a36bb6b551d317a8dacbb7bc1a1"
-  integrity sha512-HkVmduGBPiCdtpq+rNZDzjJXEt7+KxszePDkCvnXfQMKKe+OusvmiuHwNB1A7apB7fGXPysbAgST/1G96sn61Q==
+"@storybook/node-logger@^5.2.0":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-5.3.1.tgz#9f3e9aba87a4b0e6f352ad757d9a663155b46771"
+  integrity sha512-z9nLh4za0aIa6/8qsb5t9mmUAA9agUUwU7ahxMU8TCSCtZV+CM5fYOn99gQMA4IQtryQd5a1l+QRaYd7oQ9d6Q==
   dependencies:
-    "@storybook/node-logger" "^5.2.8"
-    "@types/webpack" "^4.41.0"
+    chalk "^3.0.0"
+    core-js "^3.0.1"
+    npmlog "^4.1.2"
+    pretty-hrtime "^1.0.3"
+    regenerator-runtime "^0.13.3"
+
+"@storybook/preset-create-react-app@^1.5.0":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-1.5.1.tgz#bca5743e2db565b292cf0bced98be1c3094a4183"
+  integrity sha512-aL+GYBjQ6KXEydA/+++oHOtiCWUsj0ZRMFJl6SmN6DbhNUAGPSTJ81c0Wrq58h8n/r3zDHfklcsyp42rR2ehZQ==
+  dependencies:
+    "@storybook/node-logger" "^5.2.0"
+    "@types/webpack" "^4.41.2"
     react-docgen-typescript-loader "^3.6.0"
-    semver "7.0.0"
+    semver "^7.1.1"
 
 "@storybook/react@^5.2.8":
   version "5.2.8"
@@ -3127,7 +3138,7 @@
     "@types/webpack-sources" "*"
     source-map "^0.6.0"
 
-"@types/webpack@^4.41.0":
+"@types/webpack@^4.41.2":
   version "4.41.2"
   resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.2.tgz#c6faf0111de27afdffe1158dac559e447c273516"
   integrity sha512-DNMQOfEvwzWRRyp6Wy9QVCgJ3gkelZsuBE2KUD318dg95s9DKGiT5CszmmV58hq8jk89I9NClre48AEy1MWAJA==
@@ -13799,6 +13810,11 @@ semver@7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
   integrity sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==
+
+semver@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.1.1.tgz#29104598a197d6cbe4733eeecbe968f7b43a9667"
+  integrity sha512-WfuG+fl6eh3eZ2qAf6goB7nhiCd7NPXhmyFxigB/TOkQyeLP8w8GsVehvtGNtnNmyboz4TgeK40B1Kbql/8c5A==
 
 send@0.17.1:
   version "0.17.1"

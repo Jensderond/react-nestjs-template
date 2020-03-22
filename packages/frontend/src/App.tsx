@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import styled from 'styled-components';
 import './App.css';
 import Card from './Card';
-
+import { MoonOutline, LoaderOutline } from '@styled-icons/evaicons-outline';
 
 const Wrapper = styled.div`
   background-color: #FFF480;
@@ -43,12 +42,13 @@ color: #FF5757;
 }
 `;
 
-const Logo = styled.img`
-  height: 40vmin;
+const Logo = styled(LoaderOutline)`
+  height: 6vmin;
   pointer-events: none;
+  color: #FF5757;
 
   @media (prefers-reduced-motion: no-preference) {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 4s linear;
   }
 `;
 
@@ -57,7 +57,7 @@ const App: React.FC = () => {
     <Wrapper>
       <Container>
         <Header>
-          <Logo src={logo} alt="logo" />
+          <Logo size="50" />
           <Menu>
             <li>Home</li>
             <li>About</li>
@@ -65,6 +65,7 @@ const App: React.FC = () => {
           </Menu>
         </Header>
         <Card>
+          <MoonOutline size="48" title="Unlock account" />
           <p>
             Edit <code>src/App.tsx</code> and save to reload.
         </p>

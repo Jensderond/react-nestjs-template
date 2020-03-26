@@ -5,11 +5,6 @@
     "husky": "^4.2.3",
     "lerna": "^3.20.2"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lerna run --concurrency 1 --stream precommit --since HEAD"
-    }
-  },
   "workspaces": [
     "packages/*"
   ]

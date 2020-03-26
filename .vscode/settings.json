@@ -18,4 +18,8 @@
     "prettier.jsxSingleQuote": false,
     "prettier.singleQuote": true,
     "eslint.enable": true,
+    "eslint.workingDirectories": [
+        { "mode": "auto" }
+    ],
+    "eslint.packageManager": "yarn"
 }

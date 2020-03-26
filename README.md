@@ -21,11 +21,10 @@ npx degit Jensderond/react-nestjs-template my-new-project
 ### Frontend
 - [ ] [storybook](https://github.com/storybookjs/storybook)
 - [ ] [styled-components](https://github.com/styled-components/styled-components)
-- [ ] [ESLint](https://github.com/eslint/eslint)
-- [ ] [Husky](https://github.com/typicode/husky)
+- [x] [ESLint](https://github.com/eslint/eslint)
+- [x] [Husky](https://github.com/typicode/husky)
 - [ ] [restful-react](https://github.com/contiamo/restful-react)
 - [ ] [wouter](https://github.com/molefrog/wouter)
-- [ ] UI Framework (Probably [Tailwindcss](https://github.com/tailwindcss/tailwindcss)?)
 - [ ] [React Helmet](https://github.com/nfl/react-helmet)
 
 

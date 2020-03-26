@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import './App.css';
+
 import Card from './Card';
-import { MoonOutline, LoaderOutline } from '@styled-icons/evaicons-outline';
+import { MoonOutline } from '@styled-icons/evaicons-outline';
 
 const Wrapper = styled.div`
   background-color: #FFF480;
@@ -19,36 +20,33 @@ const Container = styled.div`
   width: 48rem;
 `;
 
-const Header = styled.header`
-  min-height: 20vh;
+const Header = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  flex-direction: row;
+align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 56rem;
+`;
+
+const MainTitle = styled.h2`
+  margin: 0;
+  color: #FF5757;
 `;
 
 const Menu = styled.ul`
-margin: 0 auto 2.5rem auto;
-list-style-type: none;
-line-height: 1.6;
-margin-bottom: 1rem;
-list-style-position: outside;
-color: #FF5757;
-> li {
-  display: table-cell;
-  padding: 0.4rem 0.6rem;
-}
-`;
-
-const Logo = styled(LoaderOutline)`
-  height: 6vmin;
-  pointer-events: none;
+  margin: 0;
+  list-style-type: none;
+  line-height: 1.6;
+  list-style-position: outside;
   color: #FF5757;
-
-  @media (prefers-reduced-motion: no-preference) {
-    animation: App-logo-spin infinite 4s linear;
+  > li {
+    display: table-cell;
+    padding: 0.4rem 0.6rem;
   }
 `;
 
@@ -57,7 +55,9 @@ const App: React.FC = () => {
     <Wrapper>
       <Container>
         <Header>
-          <Logo size="50" />
+          <MainTitle>
+            Kobe
+          </MainTitle>
           <Menu>
             <li>Home</li>
             <li>About</li>

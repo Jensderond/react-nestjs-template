@@ -1,0 +1,21 @@
+{
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    },
+    "editor.formatOnSave": false,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true
+    },
+    "prettier.eslintIntegration": true,
+    "prettier.jsxSingleQuote": false,
+    "prettier.singleQuote": true,
+    "eslint.enable": true,
+}

@@ -3295,9 +3295,9 @@
     uuid "7.0.2"
 
 "@nestjs/platform-express@^7.0.5":
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-7.0.5.tgz#0c84487b0daa006b4062e60a404227cb911806a3"
-  integrity sha512-8o6+mTuIuOMJTwftS9y/bcFmnyp5uQMMZWSE7tjxdtPuQiZl7v0P00NdsUeBpwUmATJax07KH1zuSrcok57+KA==
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-7.0.6.tgz#67a6e538aefdd827f16d8de22b85021ad31d4b87"
+  integrity sha512-vRF0Za99sQk+GvnvANHQYGA7xK6B8JC4BB/nU+oIwjdlQJbaoN4YUkV0pGP4G4RTNzccGnV+oUCBDlIjAbq71Q==
   dependencies:
     body-parser "1.19.0"
     cors "2.8.5"
@@ -17544,15 +17544,10 @@ tsconfig-paths@3.9.0, tsconfig-paths@^3.4.0, tsconfig-paths@^3.9.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tslib@1.11.1, tslib@^1.10.0, tslib@^1.11.1:
+tslib@1.11.1, tslib@^1.10.0, tslib@^1.11.1, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
   integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
-
-tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
-  integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
 
 tslint@^6.1.0:
   version "6.1.0"

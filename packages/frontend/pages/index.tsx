@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import './App.css';
-
-import Card from './Card';
+import Card from '../src/app/components/Card';
 import { MoonOutline } from '@styled-icons/evaicons-outline';
 
 const Wrapper = styled.div`
@@ -52,7 +50,7 @@ const Menu = styled.ul`
     }
 `;
 
-const App: React.FC = () => {
+const Index: React.FC = () => {
     return (
         <Wrapper>
             <Container>
@@ -66,13 +64,10 @@ const App: React.FC = () => {
                 </Header>
                 <Card>
                     <MoonOutline size="48" title="Unlock account" />
-                    <p>
-                        Edit <code>src/App.tsx</code> and save to reload.
-                    </p>
                 </Card>
             </Container>
         </Wrapper>
     );
 };
 
-export default App;
+export default Index;

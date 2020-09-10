@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@storybook/addon-actions": "^5.3.18",
-    "@storybook/addon-docs": "^5.3.18",
+    "@storybook/addon-docs": "^5.3.21",
     "@storybook/preset-create-react-app": "^2.1.2",
     "@storybook/react": "^5.3.18",
     "@testing-library/jest-dom": "^5.7.0",

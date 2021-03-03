@@ -14,7 +14,7 @@
     "react-dom": "^16.14.0",
     "react-scripts": "3.4.1",
     "styled-components": "^5.2.1",
-    "styled-icons": "^10.26.0",
+    "styled-icons": "^10.29.0",
     "typescript": "~3.9.7"
   },
   "husky": {
